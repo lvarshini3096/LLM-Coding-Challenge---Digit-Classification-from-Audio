@@ -1,0 +1,12 @@
+Steps to implement:
+
+- Study and understand 2 audio files for 3-4 different number
+- extract features (mfccs), compare n_mels
+- organize the audio dataset - read audio, feature extraction, augmentation, 
+final audio input data for the model
+- build model architecture for multiclass classification - start with a few layers of cnns for mfccs
+- train with initial parameters and adjust mfcc parameters as well training parameters to improve the learning
+- test and validate the model
+- set up live audio input for inference
+- test for live audio
+
