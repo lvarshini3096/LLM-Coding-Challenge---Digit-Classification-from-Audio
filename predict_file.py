@@ -9,7 +9,7 @@ FIXED_LEN_SECONDS = 1
 FIXED_LEN_SAMPLES = SAMPLE_RATE * FIXED_LEN_SECONDS
 MODEL_PATH = "fsdd_cnn_model.pth"
 NUM_CLASSES = 10
-INFERENCE_AUDIO_DIR = '/Users/lekha/Documents/Python_programs/cloudwalk_challenge/free-spoken-digit-dataset/inference_audio'
+INFERENCE_AUDIO_DIR = '/cloudwalk_challenge/free-spoken-digit-dataset/inference_audio' #Folder containing audio files for inference
 
 def predict(model, tensor, device):
     """
